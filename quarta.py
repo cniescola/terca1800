@@ -1,0 +1,1 @@
+print("Quarta feira metade da semana se passou(acaba logo por favor)")
