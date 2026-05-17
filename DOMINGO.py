@@ -1,0 +1,1 @@
+#hoje é domingo (não tenho criatividade)
