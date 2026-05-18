@@ -1,0 +1,1 @@
+print("É pra fazer fim de semana? Quero não")
