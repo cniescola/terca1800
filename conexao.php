@@ -2,7 +2,11 @@
     $host = "localhost:3306";
     $user = "root";
     $senha = "cniaraguari85";
-    $db = "dbteste";
+    $db = "login";
     
-    $con = mysqli_connect($host, $user, $senha, $db);
+    $con = new mysqli($host, $user, $senha, $db);
+
+    if ($con->connect_error) {
+        echo "No céu tem pão";
+    }
 ?>
