@@ -2,8 +2,12 @@
 
     $host = "localhost:3306";
     $user = "root";
-    $senha = "CNIescola85";
-    $db = "dbteste";
+    $senha = "cniaraguari85";
+    $db = "logistica";
 
-    $con = mysqli_connect($host,$user,$senha,$db);
+    $con = new mysqli($host,$user,$senha,$db);
+
+    if($con->connect_error){
+        echo "deu bosta";
+    }
 ?>
